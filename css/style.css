@@ -27,18 +27,22 @@ a{
     height: 100%;
 }
 
+.arrow{
+    cursor: pointer;
+}
+
 .mini-menu{
     background: #F44336;
     margin: 0 auto;
     right: 0;
     left: 0;
     position: fixed;
-    height: 2em;
-    font-size: 2em;
-    border-radius: 2em;
-    width: 2em;
+    height: 60px;
+    width: 60px;
+    font-size: 36px;
+    border-radius: 60px;
     z-index: 5;
-    line-height: 2em;
+    line-height: 60px;
     color: white;
 
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -48,7 +52,7 @@ a{
     top: 5em;
 }
 .mini-down{
-    bottom: 5em;
+    bottom: 5vh;
 
 }
 
@@ -68,8 +72,7 @@ a{
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
-    background: #2196F3
-;
+    background: #2196F3;
 
 
 
@@ -90,41 +93,28 @@ a{
     background-size: cover;
 
 }
-#about{
+#about .section-area{
     height: 100vh;
+    opacity: 1;
 
-    background: #607D8B; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( #90A4AE, #607D8B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#90A4AE, #607D8B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#90A4AE, #607D8B); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#90A4AE, #607D8B);
 
 }
 #kook{
     height: 100vh;
     background: #B71C1C; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( #B71C1C, #D32F2F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#B71C1C, #D32F2F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#B71C1C, #D32F2F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#B71C1C, #D32F2F);
+
 
 }
 #sidechat{
     height: 100vh;
     background: #009688; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( #4DB6AC, #009688); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#4DB6AC, #009688); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#4DB6AC, #009688); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4DB6AC, #009688);
+
 
 }
 #teac{
     height: 100vh;
     background: #000000;
-    background: -webkit-linear-gradient( #424242, #000000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( #424242, #000000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( #424242, #000000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient( #424242, #000000);
+
 }
 .col-lg-4{
     margin: 0 !important;
@@ -144,18 +134,22 @@ a{
 
 .circle-row{
     z-index: 1;
+    position: fixed;
+    width: 100%;
+    bottom: 10vh;
+
 }
 .logo-circle{
     font-family: 'Montserrat', sans-serif !important;
+    bottom: 10vh;
     margin: 0 auto;
     right: 0;
     left: 0;
     z-index: 10!important;
     float: none;
-    margin: 0 auto;
-    width: 30em;
-    height: 30em;
-    border-radius: 30em;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
 
     background: #F44336;
     color: #ffffff;
@@ -195,26 +189,28 @@ a{
 }
 
 
+
+
 @media only screen and (min-width : 1200px) {
     .about-col{
         height: 100vh;
-        width: 100%;
 
-        background: #00ff00 url("../img/reddog.jpg") no-repeat fixed;
+       /* background: #00ff00 url("../img/reddog.jpg") no-repeat  fixed;
 
-        background-position: center;
+        -moz-background-size: cover;
         background-size: cover;
-        color:orange;
-        opacity: .5;
-        filter:grayscale(100);
+
+        -webkit-background-size: cover;
+        -o-background-size: cover;*/
     }
+
     .kook-col{
         height: 100vh;
         width: 100%;
 
         background: #00ff00 url("../img/kook.jpg") no-repeat fixed;
 
-        background-position: center;
+        background-position: 0px 50%;
         background-size: cover;
         color:orange;
         opacity: .5;
@@ -258,9 +254,7 @@ a{
     .logo-circle{
         display:block;
     }
-    .kook-col{
-        display:none;
-    }
+
 
 }
 
