@@ -46,13 +46,13 @@
         </video>
     </div>
 
-    <div class="mini-menu mini-down arrow next" >
+    <div class="mini-menu mini-down arrow next">
         <div id="arrow">
             <a class="next"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row circle-row text-center" >
+        <div class="row circle-row text-center">
             <div class="col-lg-4 text-center">
                 <div class="logo-circle text-center">
                     <div class="logo-text text-center">
@@ -69,14 +69,14 @@
                         </div>
                         <div class="menu">
 
-                            <a href="#about"><h3>About Me</h3></a>
-                            <a href="#kook"><h3>Kook.io & Wax River </h3></a>
-                            <a href="#sidechat"><h3>side.chat</h3></a>
-                            <a href="#teac"><h3>Teac Hack </h3></a>
+                            <a href="#about">About Me</a><br>
+                            <a href="#kook">Kook.io & Wax River </a><br>
+                            <a href="#sidechat">side.chat</a><br>
+                            <a href="#teac">Teac Hack </a><br>
 
                         </div>
-                        <div class="arrow next">
-                           <h1><i class="fa fa-chevron-down" aria-hidden="true"></i></h1>
+                        <div class="arrow next large-screen-arrow">
+                            <h1><i class="fa fa-chevron-down" aria-hidden="true"></i></h1>
                         </div>
 
                     </div>
@@ -100,22 +100,20 @@
                 <div class="section-area">
 
                     <div class="section-info">
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-8 col-md-offset-2">
                             <h1>About Me</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut
-                                labore
-                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laborisd
-                                nisi
-                                ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit
-                                esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt
-                                in
-                                culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Hey. I'm Alex. I like to make things. I'm a Computer Science & Business Management
+                                student (finishing mid 2017). I like hanging out with creative people, and you'll often
+                                find me at places like <a
+                                        href="http://www.firestation101.com.au" class="link-text"
+                                        target="_blank">Fire Station 101</a>, <a href="http://www.ilabaccelerator.com/" class="link-text"
+                                target="_blankp">iLab</a> & <a href="https://ideahub.uq.edu.au" class="link-text"
+                                                            target="_blank">IdeaHub</a>. If I'm not at any of those I
+                                might be at a gig, but if I'm not at any venues I might be playing lawn bowls. If you
+                                can't find me at the bowls club then you are probably best shooting me <a
+                                        href="mailto:alex@tallredman.xyz?Subject=Hey%20Alex!" class="link-text"
+                                        target="_top">an e-mail</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -140,7 +138,7 @@
                 <div class="section-area">
 
                     <div class="section-info">
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-8 col-md-offset-2">
                             <h1>Kook.io & Wax River</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut
@@ -174,7 +172,7 @@
                 <div class="section-area">
 
                     <div class="section-info">
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-8 col-md-offset-2">
                             <h1>side.chat</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut
@@ -206,7 +204,7 @@
                 <div class="section-area">
 
                     <div class="section-info">
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-8 col-md-offset-2">
                             <h1>Teac Hack</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut
@@ -245,6 +243,7 @@
         //set position as percentage of how far the user has scrolled
         var position = topWindow / windowHeight;
         //invert the percentage
+        var colorOpacity = position;
         position = 1 - position;
 
         //define arrow opacity as based on how far up the page the user has scrolled
@@ -259,11 +258,13 @@
             $('.menu').show();
         }
 
+
+
         //For small screens, gets rid of circle and replaces with mini menu passed first page.
         if ($(window).width() < 1200) {
             $('.circle-row').css('opacity', position);
-            $('.mini-menu').css('opacity', .5-position);
-            if ($(window).scrollTop() > $(window).height() *.6){
+            $('.mini-menu').css('opacity', .5 - position);
+            if (($(window).scrollTop() > $(window).height() * .6) && ($(window).scrollTop() < 4* $(window).height())) {
                 $('.circle-row').hide();
                 $('.mini-menu').show();
             } else {
@@ -279,10 +280,10 @@
 
     });
 
-    $(document).ready(function (){
-        if ($(window).scrollTop() > $(window).height() * .5){
+    $(document).ready(function () {
+        if ($(window).scrollTop() > $(window).height() * .5) {
             $('.mini-menu').show();
-        }else{
+        } else {
             $('.mini-menu').hide();
 
         }
@@ -291,9 +292,8 @@
     $(window).resize(function () {
 
         if ($(window).width() < 1200) {
-            $('.circle-row').css('opacity', position);
-            $('.mini-menu').css('opacity', .5-position);
-            if ($(window).scrollTop() > $(window).height() *.6){
+
+            if ($(window).scrollTop() > $(window).height() * .6) {
                 $('.circle-row').hide();
                 $('.mini-menu').show();
             } else {
