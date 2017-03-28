@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="1283">
+              <caret line="282" column="39" lean-forward="false" selection-start-line="282" selection-start-column="39" selection-end-line="282" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="216" column="33" lean-forward="false" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
+            <state relative-caret-position="813">
+              <caret line="335" column="43" lean-forward="false" selection-start-line="335" selection-start-column="40" selection-end-line="335" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -47,36 +47,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mini-menu</find>
-      <find>position</find>
-      <find>background</find>
-      <find>about</find>
-      <find>about-col</find>
-      <find>alex</find>
-      <find>myvide</find>
-      <find>col</find>
-      <find>about me</find>
-      <find>&lt;b&gt;</find>
-      <find>monts</find>
-      <find>mail</find>
-      <find>mini-</find>
-      <find>i lik</find>
-      <find>menu</find>
-      <find>arrow</find>
-      <find>logo-text</find>
-      <find>h3</find>
-      <find>large-screen</find>
-      <find>hover</find>
-      <find>text</find>
-      <find>section</find>
-      <find>link-te</find>
       <find>transition</find>
-      <find>circle</find>
       <find>fire station</find>
       <find>width</find>
-      <find>media</find>
       <find>style</find>
+      <find>media</find>
       <find>style.css</find>
+      <find>box-shad</find>
+      <find>test-ve</find>
+      <find>kook</find>
+      <find>test-</find>
+      <find>test-ov</find>
+      <find>absolute</find>
+      <find>section-area</find>
+      <find>section</find>
+      <find>section-</find>
+      <find>section-info</find>
+      <find>200</find>
+      <find>c</find>
+      <find>translate</find>
+      <find>transform</find>
+      <find>circle-row</find>
+      <find>logo</find>
+      <find>400</find>
+      <find>circle</find>
+      <find>circle-point</find>
+      <find>kook.io</find>
+      <find>menu</find>
+      <find>develop</find>
+      <find>logo-circle</find>
+      <find>deg</find>
     </findStrings>
     <replaceStrings>
       <replace>top-border</replace>
@@ -92,6 +92,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style1.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -105,7 +106,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="1694" />
+    <option name="width" value="1881" />
     <option name="height" value="2101" />
   </component>
   <component name="ProjectView">
@@ -237,13 +238,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62235000" />
+    <option name="totallyTimeSpent" value="80485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1694" height="2101" extended-state="0" />
-    <editor active="false" />
+    <frame x="-11" y="0" width="1881" height="2101" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29101795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -345,18 +346,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="813">
+          <caret line="335" column="43" lean-forward="false" selection-start-line="335" selection-start-column="40" selection-end-line="335" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style1.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="216" column="33" lean-forward="false" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
+        <state relative-caret-position="1283">
+          <caret line="282" column="39" lean-forward="false" selection-start-line="282" selection-start-column="39" selection-end-line="282" selection-end-column="39" />
           <folding />
         </state>
       </provider>
